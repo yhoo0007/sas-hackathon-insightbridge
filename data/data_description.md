@@ -10,3 +10,19 @@ The columns are:
 - Total Cases In Cluster: otal number of dengue cases reported in this cluster 
 - Date: Date string in YYMMDD format 
 - Month Number: Index number of the month, where 1=January and 12=December
+
+The weather/all_stations_merged.csv file contains weather data for the time period corresponding to the dengue data.
+The columns are:
+- Station
+- Year
+- Month
+- Day
+- Daily Rainfall Total (mm)
+- Highest  30-min Rainfall (mm)
+- Highest  60-min Rainfall (mm)
+- Highest 120-min Rainfall (mm)
+- Mean Temperature (°C)
+- Maximum Temperature (°C)
+- Minimum Temperature (°C)
+- Mean Wind Speed (km/h)
+- Max Wind Speed (km/h)
