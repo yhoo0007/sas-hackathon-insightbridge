@@ -1,0 +1,42 @@
+{
+  "source": "Open-Meteo ERA5 historical archive",
+  "url": "https://archive-api.open-meteo.com/v1/archive",
+  "start_date": "2015-01-01",
+  "end_date": "2020-11-30",
+  "locations": [
+    {
+      "name": "central",
+      "lat": 1.3521,
+      "lon": 103.8198
+    },
+    {
+      "name": "north",
+      "lat": 1.435,
+      "lon": 103.835
+    },
+    {
+      "name": "east",
+      "lat": 1.354,
+      "lon": 103.955
+    },
+    {
+      "name": "west",
+      "lat": 1.344,
+      "lon": 103.693
+    }
+  ],
+  "variables": [
+    "temperature_2m_mean",
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "precipitation_sum",
+    "rain_sum",
+    "precipitation_hours",
+    "relative_humidity_2m_max",
+    "relative_humidity_2m_min",
+    "wind_speed_10m_mean",
+    "wind_speed_10m_max",
+    "et0_fao_evapotranspiration",
+    "shortwave_radiation_sum"
+  ]
+}
