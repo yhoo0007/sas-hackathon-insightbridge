@@ -106,7 +106,6 @@ def _add_temporal_features(df: pd.DataFrame, date_col: str = "week_start") -> pd
     df["cos_woy"] = np.cos(2 * np.pi * woy / 52)
     df["sin_month"] = np.sin(2 * np.pi * dt.dt.month / 12)
     df["cos_month"] = np.cos(2 * np.pi * dt.dt.month / 12)
-    df["year"] = dt.dt.year
     df["monsoon_phase"] = dt.dt.month.map(_MONSOON_PHASE).fillna("inter")
     return df
 

@@ -51,7 +51,6 @@
     "cos_woy",
     "sin_month",
     "cos_month",
-    "year",
     "cases_lag_1w",
     "cases_lag_2w",
     "cases_lag_4w",
